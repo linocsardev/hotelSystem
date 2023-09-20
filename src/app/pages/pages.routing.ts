@@ -7,13 +7,12 @@ import { ClientesComponent } from "./clientes/clientes.component";
 
 const routes: Routes = [
     { 
-        path: '', 
+        path: 'dashboard', 
         component: PagesComponent,
         children : [
-          { path: 'dashboard', component: DashboardComponent},
+          { path: '', component: DashboardComponent},
           { path: 'habitaciones', component: HabitacionesComponent },
           { path: 'clientes', component: ClientesComponent },
-          { path: '', redirectTo:'/dashboard', pathMatch: 'full'},
         ]
       },
 
