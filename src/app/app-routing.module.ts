@@ -5,7 +5,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ClientesComponent } from './pages/clientes/clientes.component';
 import { HabitacionesComponent } from './pages/habitaciones/habitaciones.component';
-import { NotpagesfoundComponent } from './pages/notpagesfound/notpagesfound.component';
+import { NotpagesfoundComponent } from './notpagesfound/notpagesfound.component';
 import { PagesComponent } from './pages/pages.component';
 
 const routes: Routes = [
