@@ -1,0 +1,47 @@
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <app-dona width="100px"
+      [data] = "data1"
+      title="Ventas"
+      [labels]="dona1Labels"
+      [backgroundColor]="dona1Background"
+      >
+
+    </app-dona>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <app-dona
+      title = 'Compras'
+      [labels] = "['Administracion', 'Gerencia', 'Operativos']"
+      [data] = '[46,76,22]'
+      [backgroundColor]="['#fc8621','#da1212','#2f9919']"
+      >
+
+      </app-dona>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <app-dona
+      title = 'Categoria Habitacion'
+      [labels]="['Simple', 'Doble', 'Matrimonial']"
+      >
+
+      </app-dona>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <app-dona
+      title='Clientes'
+      [labels]='["Jovenes", "Adultos","Mayores de Edad"]'></app-dona>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,160 @@
+<div class="row">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Striped Progress bar </h4>
+        <div class="progress m-t-20">
+          <div class="progress-bar bg-primary progress-bar-striped active"
+              style="height:20px;"
+              [style.width]="getProgreso1"
+              role="progressbar">
+              {{getProgreso1}}
+          </div>
+        </div>
+
+        <div class="progress m-t-20">
+          <div class="progress-bar bg-info progress-bar-striped active"
+              style="height:20px;"
+              [style.width]="getProgreso2"
+              role="progressbar">
+              {{getProgreso2}}
+          </div>
+        </div>
+
+        <div class="progress m-t-20">
+          <div class="progress-bar bg-secondary progress-bar-striped active"
+              style="height:20px;"
+              [style.width]="getProgreso3"
+              role="progressbar">
+              {{getProgreso3}}
+          </div>
+        </div>
+
+        <div class="progress m-t-20">
+          <div class="progress-bar bg-warning progress-bar-striped active"
+          style="height:20px;"
+          [style.width]="getProgreso4"
+              role="progressbar">
+              {{getProgreso4}}
+          </div>
+        </div>
+
+        <div class="progress m-t-20">
+          <div class="progress-bar bg-inverse progress-bar-striped active"
+              style="height:20px;"
+              [style.width]="getProgreso5"
+              role="progressbar">
+              {{getProgreso5}}
+          </div>
+        </div>
+
+        <div class="progress m-t-20">
+          <div class="progress-bar bg-success progress-bar-striped active"
+              style="height:20px;"
+              [style.width]="getProgreso6"
+              role="progressbar">
+              {{getProgreso6}}
+          </div>
+       </div>
+
+       <div class="progress m-t-20">
+        <div class="progress-bar bg-danger progress-bar-striped active"
+            style="height:20px;"
+            [style.width]="getProgreso7"
+            role="progressbar">
+            {{getProgreso7}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <app-incrementador  (valorSalida)="progreso1 = $event"
+                            btnClass = 'btn-primary'
+                            [valor]="progreso1">
+
+        </app-incrementador>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <app-incrementador  (valorSalida)="progreso2 = $event"
+                            btnClass = 'btn-info'
+                            [valor]="progreso2">
+        </app-incrementador>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <app-incrementador  (valorSalida)="progreso3 = $event"
+                            btnClass = 'btn-secondary'
+                            [valor]="progreso3">
+
+        </app-incrementador>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <app-incrementador  (valorSalida)="progreso4 = $event"
+                            btnClass = 'btn-warning'
+                            [valor]="progreso4">
+
+        </app-incrementador>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <app-incrementador  (valorSalida)="progreso5 = $event"
+                            btnClass = 'btn-inverse'
+                            [valor]="progreso5">
+
+        </app-incrementador>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <app-incrementador  (valorSalida)="progreso6 = $event"
+                            btnClass = 'btn-success'
+                            [valor]="progreso6">
+
+        </app-incrementador>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-12">
+    <div class="card">
+      <div class="card-body">
+        <app-incrementador  (valorSalida)="progreso7 = $event"
+                            btnClass = 'btn-danger'
+                            [valor]="progreso7">
+
+        </app-incrementador>
+      </div>
+    </div>
+  </div>
+</div>
+
