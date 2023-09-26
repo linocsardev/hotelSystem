@@ -13,6 +13,7 @@ import { HabitacionesComponent } from './habitaciones/habitaciones.component';
 import { PagesComponent } from './pages.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { Grafica1Component } from './grafica1/grafica1.component';
     HabitacionesComponent,
     PagesComponent,
     ProgressComponent,
-    Grafica1Component
+    Grafica1Component,
+    AccountSettingsComponent
   ],
   exports : [
     DashboardComponent,
@@ -30,7 +32,8 @@ import { Grafica1Component } from './grafica1/grafica1.component';
     HabitacionesComponent,
     PagesComponent,
     ProgressComponent,
-    Grafica1Component
+    Grafica1Component,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,

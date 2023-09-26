@@ -6,6 +6,7 @@ import { HabitacionesComponent } from "./habitaciones/habitaciones.component";
 import { ClientesComponent } from "./clientes/clientes.component";
 import { ProgressComponent } from "./progress/progress.component";
 import { Grafica1Component } from "./grafica1/grafica1.component";
+import { AccountSettingsComponent } from "./account-settings/account-settings.component";
 
 const routes: Routes = [
     {
@@ -17,6 +18,8 @@ const routes: Routes = [
           { path: 'clientes', component: ClientesComponent },
           { path: 'progress', component: ProgressComponent },
           { path: 'grafica1', component: Grafica1Component },
+          { path: 'account-settings', component: AccountSettingsComponent },
+
         ]
       },
 
